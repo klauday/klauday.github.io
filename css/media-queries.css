@@ -1,0 +1,149 @@
+@media only screen and (max-width: 992px) {
+	.wrapper {
+		width: 320px;
+	}
+	.text {    
+	text-align:center;
+	margin-top: 300px;	
+    line-height: 20px  
+
+	}
+	.button-main {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    color: #11daff;
+    border: 1px solid #11daff;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: .3s linear;
+    margin-top: 20px;
+    margin-left: auto;
+    width: auto;
+	}
+	.button-main-2 {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    color: #11daff;
+    border: 1px solid #11daff;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: .3s linear;
+    margin-top: 10px ;
+    left: 5px;
+    margin-left: auto;
+    width: auto;
+	}	
+	.divcentertext {
+	overflow:hidden;
+	}	
+	.divcentertext-2 {  box-sizing:border-box;
+  	width:auto;
+  	max-width:200%;
+  	}
+
+@media only screen and (max-width: 768px) {
+	.wrapper {
+		width: 320px;
+	}
+	.text {    
+	text-align:center;
+	margin-top: 300px;	
+    line-height: 20px  
+
+	}
+	.button-main {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    color: #11daff;
+    border: 1px solid #11daff;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: .3s linear;
+    margin-top: 20px;
+    margin-left: auto;
+    width: auto;
+	}
+	.button-main-2 {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    color: #11daff;
+    border: 1px solid #11daff;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: .3s linear;
+    margin-top: 10px ;
+    left: 5px;
+    margin-left: auto;
+    width: auto;
+	}	
+	.divcentertext {
+	overflow:hidden;
+	}	
+	.divcentertext-2 {  box-sizing:border-box;
+  	width:auto;
+  	max-width:200%;
+  	}
+}
+
+@media only screen and (max-width: 480px) {
+	.wrapper {
+		width: 320px;
+	}
+	.text {    
+	right:100px;
+	margin-top: 300px;	
+    line-height: 20px  
+
+	}
+	.button-main {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    color: #11daff;
+    border: 1px solid #11daff;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: .3s linear;
+    margin-top: 20px;
+    width: auto;
+    margin-left: auto;
+	}
+	.button-main-2 {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    color: #11daff;
+    border: 1px solid #11daff;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: .3s linear;
+    margin-top: 10px ;
+    left: 5px;
+    width: auto;
+    margin-left: auto;
+	}	
+	.divcentertext {
+	overflow:hidden;
+	}	
+	.divcentertext-2 {  box-sizing:border-box;
+  	width:auto;
+  	max-width:200%;
+  	}
+}
+
