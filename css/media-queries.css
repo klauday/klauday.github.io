@@ -1,4 +1,7 @@
 @media only screen and (max-width: 992px) {
+    body {   
+    background-image: url('../icon/fonzxcmini.jpg');     
+    }
 	.wrapper {
 		width: 320px;
 	}
@@ -13,8 +16,8 @@
     display: inline-block;
     position: relative;
     padding: 15px 30px;
-    color: #11daff;
-    border: 1px solid #11daff;
+    color: white;
+    border: 1px solid #cd090a;
     font-size: 14px;
     font-weight: 700;
     white-space: nowrap;
@@ -27,15 +30,15 @@
     text-decoration: none;
     display: inline-block;
     position: relative;
-    padding: 15px 30px;
-    color: #11daff;
-    border: 1px solid #11daff;
+    padding: 15px 28px;
+    color: white;
+    border: 1px solid #cd090a;
     font-size: 14px;
     font-weight: 700;
     white-space: nowrap;
     transition: .3s linear;
     margin-top: 10px ;
-    left: 5px;
+    left: 0px;
     margin-left: auto;
     width: auto;
 	}	
@@ -46,8 +49,14 @@
   	width:auto;
   	max-width:200%;
   	}
+    .color-button {
+    color:white;
+}
 
 @media only screen and (max-width: 768px) {
+    body {   
+    background-image: url('../icon/fonzxcmini.jpg');     
+    }
 	.wrapper {
 		width: 320px;
 	}
@@ -62,8 +71,8 @@
     display: inline-block;
     position: relative;
     padding: 15px 30px;
-    color: #11daff;
-    border: 1px solid #11daff;
+    color: white;
+    border: 1px solid #cd090a;
     font-size: 14px;
     font-weight: 700;
     white-space: nowrap;
@@ -76,15 +85,15 @@
     text-decoration: none;
     display: inline-block;
     position: relative;
-    padding: 15px 30px;
-    color: #11daff;
-    border: 1px solid #11daff;
+    padding: 15px 28px;
+    color: white;
+    border: 1px solid #cd090a;
     font-size: 14px;
     font-weight: 700;
     white-space: nowrap;
     transition: .3s linear;
     margin-top: 10px ;
-    left: 5px;
+    left: 0px;
     margin-left: auto;
     width: auto;
 	}	
@@ -95,9 +104,15 @@
   	width:auto;
   	max-width:200%;
   	}
+    .color-button {
+    color:white;
+    }    
 }
 
 @media only screen and (max-width: 480px) {
+    body {   
+    background-image: url('../icon/fonzxcmini.jpg');     
+    }
 	.wrapper {
 		width: 320px;
 	}
@@ -112,8 +127,8 @@
     display: inline-block;
     position: relative;
     padding: 15px 30px;
-    color: #11daff;
-    border: 1px solid #11daff;
+    color: white;
+    border: 1px solid #cd090a;
     font-size: 14px;
     font-weight: 700;
     white-space: nowrap;
@@ -126,18 +141,21 @@
     text-decoration: none;
     display: inline-block;
     position: relative;
-    padding: 15px 30px;
-    color: #11daff;
-    border: 1px solid #11daff;
+    padding: 15px 28px;
+    color: white;
+    border: 1px solid #cd090a;
     font-size: 14px;
     font-weight: 700;
     white-space: nowrap;
     transition: .3s linear;
     margin-top: 10px ;
-    left: 5px;
+    left: 0px;
     width: auto;
     margin-left: auto;
 	}	
+    .color-button {
+    color:white;
+    }      
 	.divcentertext {
 	overflow:hidden;
 	}	
