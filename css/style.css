@@ -7,12 +7,12 @@
 
 html {height: 45%}
 
-body{
+body {   
+    background-image: url('../icon/fonzxc.jpg');      
     overflow-x: hidden;
     width: 98%;
     height: 100%;
     color: #333;
-    background: #f7f7f7;
     font-size: 1em;
     font-family: "Segoe UI", sans-serif;
     line-height: 135%;
@@ -77,8 +77,8 @@ hr {
     display: inline-block;
     position: relative;
     padding: 15px 30px;
-    color: #11daff;
-    border: 1px solid #11daff;
+    color: white;
+    border: 1px solid #cd090a;
     font-size: 14px;
     font-weight: 700;
     white-space: nowrap;
@@ -130,15 +130,15 @@ hr {
     display: inline-block;
     position: relative;
     padding: 15px 30px;
-    color: #11daff;
-    border: 1px solid #11daff;
+    color: white;
+    border: 1px solid #cd090a;
     font-size: 14px;
     font-weight: 700;
     white-space: nowrap;
     transition: .3s linear;
     margin-top: 10px ;
     margin-left: 10px;
-    left: 5px;
+    left: 0px;
     width:67.71px   
 }   
 .button-main-2:before, .button-main-2:after, .link-content:before, .link-content:after {
@@ -163,6 +163,10 @@ hr {
 .button-main-2:hover {
     color: #614DFF;
     border-color: #614DFF;
+}
+
+.color-button {
+    color: black;
 }
 
 /* About Us */
