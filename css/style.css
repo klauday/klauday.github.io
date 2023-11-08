@@ -1,0 +1,68 @@
+@charset "utf-8"
+* {
+    margin: 0;
+    padding: 0;
+    transition: all .2s;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9
+}
+
+html {height: 45%}
+
+body {   
+    background-image: url('../image/mainfon.png');      
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    color: #333;
+    font-size: 1em;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 135%;
+    color: #FFD718;      
+}
+
+body.lock {
+    overflow: hidden;
+}
+
+body.dark {
+    background-image: url('../image/zxcfon.png');   
+    color: #cd090a;  
+}
+
+.text {    
+    text-align:center;
+    margin-top: 300px;  
+    line-height: 20px;
+}
+
+.zxccenter {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 300px; 
+    column-gap: 10px
+}
+
+.klauday {    
+    position: absolute;
+    top: 850px;
+    right: 20px     
+}  
+.textklauday3d {
+    font-size:18px;
+    color:red;
+    display: block;
+}
+
+/* Адаптация */
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 25px;
+    }
+}

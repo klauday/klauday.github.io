@@ -1,0 +1,210 @@
+@media only screen and (max-width: 992px) {
+    body {   
+    background-image: url('../image/mainfon.png');  
+    color: #FFD718;
+    } 
+    body.dark {
+    background-image: url('../image/zxcfon.png');   
+    }  
+	.wrapper {
+		width: 320px;
+	}
+    .textklauday3d {
+        font-size:18px;
+    }
+	.button-main {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid #cd090a;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: .3s linear;
+    margin-top: 20px;
+    margin-left: auto;
+    width: auto;
+	}
+	.button-main-2 {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px 28px;
+    color: white;
+    border: 1px solid #cd090a;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: .3s linear;
+    margin-top: 10px ;
+    left: 0px;
+    margin-left: auto;
+    width: auto;
+	}	
+	.divcentertext {
+	overflow:hidden;
+	}	
+	.divcentertext-2 {  box-sizing:border-box;
+  	width:auto;
+  	max-width:200%;
+  	}
+    .color-button {
+    color:white;
+    }
+    .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+    visibility: visible;
+    } 
+    .hidden{
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    body {   
+    background-image: url('../image/mainfonmini.png');  
+    } 
+    body.dark {
+    background-image: url('../image/zxcfonmid.png');   
+    }  
+	.wrapper {
+		width: 320px;
+	}
+    .textklauday3d {
+    display: none;
+    }
+	.button-main {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid #cd090a;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: .3s linear;
+    margin-top: 20px;
+    margin-left: auto;
+    width: auto;
+	}
+	.button-main-2 {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px 28px;
+    color: white;
+    border: 1px solid #cd090a;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: .3s linear;
+    margin-top: 10px ;
+    left: 0px;
+    margin-left: auto;
+    width: auto;
+	}	
+	.divcentertext {
+	overflow:hidden;
+	}	
+	.divcentertext-2 {  box-sizing:border-box;
+  	width:auto;
+  	max-width:200%;
+  	}
+    .color-button {
+    color:white;
+    }   
+    .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+    visibility: visible;
+    } 
+    .hidden{
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 480px) {
+    body {   
+    background-image: url('../image/mainfonmini.png');  
+    } 
+    body.dark {
+    background-image: url('../image/zxcfonmini.png');   
+    }  
+	.wrapper {
+		width: 320px;
+    }
+    .textklauday3d {
+    display: none;
+    }
+	.button-main {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid #cd090a;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: .3s linear;
+    margin-top: 20px;
+    width: auto;
+    margin-left: auto;
+	}
+	.button-main-2 {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px 28px;
+    color: white;
+    border: 1px solid #cd090a;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: .3s linear;
+    margin-top: 10px ;
+    left: 0px;
+    width: auto;
+    margin-left: auto;
+	}	
+    .color-button {
+    color:white;
+    }      
+	.divcentertext {
+	overflow:hidden;
+	}	
+	.divcentertext-2 {  box-sizing:border-box;
+  	width:auto;
+  	max-width:200%;
+    }   
+    .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+    visibility: visible;
+    } 
+    .hidden{
+    visibility: hidden;
+}
