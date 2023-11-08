@@ -1,0 +1,124 @@
+/* 
+Datalife Engine template by Webrambo.ru,
+name: NewFlix, creation date: 4 march 2021, version dle: 14
+*/
+
+:root {
+	--bg: #ffffff;
+	--bg-2: #f0f0f0;
+	--bg-3: #000;
+	--tt: #161616;
+	--tt-sub: #999;
+	--tt-contrast: #fff;
+	--accent: #f85b49;
+	--accent-darker: #d84231;
+	--ui-bg: #fff;
+	--ui-bg-darker: #f0f0f0;
+	--ui-bg-accent: #333;
+	--ui-text-color-on-accent: #fff;
+	--main-indent-negative: -140px;
+	--main-indent: 140px; 
+	--maximum-width: 1280px;
+	--brand-padding: 40px;
+}
+
+/* RESET, BASIC UI SETTINGS
+----------------------------------------------- */
+* {background: transparent; margin: 0; padding: 0; outline: none; border: 0; box-sizing: border-box;}
+ol, ul {list-style: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+img, table, iframe, video, frame, embed, object {max-width: 100%;}
+body {
+	font: 14px 'Roboto', sans-serif;
+	line-height: normal;
+	padding: 0;
+	margin: 0;
+	color: var(--tt);
+	min-height: 100%;
+	width: 100%;
+	font-weight: 400;
+	overflow-x: hidden;
+	background: #444 url(../imageA/background/bag1.webp) center top fixed;
+	background-size: 100% auto;
+	padding-bottom: 200px;
+	padding-top: 200px;
+	}
+a {color: var(--tt); text-decoration: none;}
+a:hover, a:focus {color: var(--tt); text-decoration: none;}
+h1, h2, h3, h4, h5 {font-weight: 700 !important; font-size: 24px;}
+::selection {background: #ff0000; color: #fff;}
+b, strong, .bolder {font-weight: 700;}
+
+button, select, textarea, input[type="text"], input[type="password"], input[type="button"], input[type="submit"] 
+	{appearance: none; -webkit-appearance: none; font-size: 16px; font-family: 'Roboto' !important;}
+button, .btn, input[type="button"], input[type="reset"], input[type="submit"], .form__btn, 
+.qq-upload-button, .pm__links a, .usp__btn a {display: inline-flex; align-items: center; justify-content: center; 
+	cursor: pointer; text-align: center; padding: 0 20px; height: 40px; font-size: 15px; font-weight: 400; 
+	white-space: nowrap; background-color: var(--accent); color:#fff; border-radius: 3px; box-shadow: none;}
+button:hover, .btn:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, 
+.form__btn:hover, .qq-upload-button:hover, .pm__links a:hover, .usp__btn a:hover 
+{background-color: var(--accent-darker); color: #fff;}
+button:active, input[type="button"]:active, input[type="submit"]:active {box-shadow: inset 0 1px 4px 0 rgba(0,0,0,0.1);}
+.color-btn, [class*=fr], [class*=plyr], [class*=owl-], [id*=mceu] {padding: 0; margin: 0; 
+	line-height: normal; border: 0; box-shadow: none; background: none; border-radius: 0;}
+
+input[type="text"], input[type="password"] {height: 40px; line-height: 40px; border-radius: 4px; padding: 0 15px;}
+select {height: 40px; padding: 0 15px; display: block;}
+select:not([multiple]) {background-image: url(../dleimages/chevron.svg); padding-right: 30px;
+	background-repeat: no-repeat; background-position: right 15px top 50%; background-size: .6em auto;}
+select option {padding: 6px 10px;}
+select[multiple] {padding: 0 5px;}
+textarea {padding: 15px; overflow: auto; vertical-align: top; resize: vertical;}
+input[type="text"], input[type="password"], select, textarea {width: 100%; background-color: #fff; color: #000; 
+	box-shadow: inset 0 0 0 1px #e3e3e3, inset 1px 2px 5px rgba(0,0,0,0.1);}
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus 
+	{box-shadow: inset 0 0 0 1px var(--accent), inset 1px 2px 5px rgba(0,0,0,0.1);}
+input::placeholder, textarea::placeholder {color: #000; opacity: 0.4; font-size: 13px;} 
+input:focus::placeholder, textarea:focus::placeholder {color: transparent}
+
+/* SNIPPETS
+----------------------------------------------- */
+.img-box, .img-wide, .img-responsive, .img-fit-cover {position: relative;}
+.img-responsive {padding-top: 60%;}
+.img-responsive--portrait {padding-top: 150%;}
+.img-box > img, .img-responsive > img {width: 100%; min-height: 100%; display: block;}
+.img-responsive > img {position: absolute; left: 0; top: 0;}
+.img-wide img, .img-wide > a {width: 100%; display: block;}
+.img-fit-cover img {width: 100%; height: 100%; object-fit: cover;}
+.clr {clear: both;}
+.clearfix::after {content: ""; display: table; clear: both;}
+.ws-nowrap {white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+
+.vw100 {margin: 0 calc((100% - 100vw)/2); padding: 0 calc((100vw - 100%)/2);}
+.d-flex, .fx-row, #dle-content {display: flex; flex-wrap: wrap; flex-direction: row;}
+.fd-column, .fx-col {flex-direction: column; flex-wrap: nowrap;} 
+.jc-space-between, .fx-row {justify-content: space-between;}
+.jc-flex-start, .fx-start, #dle-content {justify-content: flex-start;}
+.jc-center, .fx-center {justify-content: center;}
+.jc-flex-end {justify-content: flex-end;}
+.ai-flex-start {align-items: flex-start;}
+.ai-center, .fx-middle {align-items: center;}
+.ai-flex-end {align-items: flex-end;}
+.order-first {order: -1;}
+.order-last {order: 10;}
+.flex-grow-1, .fx-1, .stretch-free-width {flex: 1 1 0; max-width: 100%; min-width: 50px;}
+.btn-icon, .centered-content {display: inline-flex; justify-content: center; align-items: center;}
+.icon-at-left [class*="fa-"], .icon-left .icon {margin-right: 10px;}
+.icon-at-right [class*="fa-"], .icon-right .icon {margin-left: 10px;}
+.hidden, #dofullsearch, .form__header .form__btn, .comment-item__main .quote + br, .d-none, .page__screenshots br {display: none;}
+.animated-element, button, .btn, a, .header__menu-hidden, .header__btn-search, .header__btn-login, 
+.poster-item__desc, .poster-item::before, .page__btn-trailer .fal, .page__watch-btn, 
+.page__rating-item--audience div, .page__btn-comments, .tabs-block__select span, .header, .header.sticky, 
+.mylists-tabs,.mylists-tabs_wrap,.carousels__tabs > div {transition: all .3s;}
+
+#dle-content > *:not(.grid-item), #dle-content {width: 100%;}
+#dle-content, .d-grid, .page__screenshots .xfieldimagegallery {display: grid; grid-template-columns: repeat(auto-fill,minmax(140px,1fr)); 
+	grid-gap: 20px 20px; grid-auto-flow: row dense;}
+#dle-content > *:not(.grid-item), .page__screenshots .xfieldimagegallery {grid-column: 1 / -1;}
+[data-src] {opacity: 0; transition: opacity 0.3s;}
+[data-src].lazy-loaded {opacity: 1;}
+.sect__title, .page__side-box-title, .sect__subtitle, .hero__title, h1, h2, h3, h4, h5, 
+.page__subtitle, .page__rating-item, .page__activity-item div {font-family: 'Circe'; font-weight: 700;}
+
+@font-face {font-family: 'Circe'; src: url('../webfonts/Circe-Bold.woff') format('woff');
+	font-weight: 700; font-style: normal; font-display: swap;}
