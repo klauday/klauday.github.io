@@ -900,7 +900,7 @@ display: flex;
 .page__col-right {width: 300px; margin-left: 60px;}
 .page__main {
     padding: 0 var(--main-indent);
-    background: var(--bg-3) url(/bag1.webp) center top fixed;
+    background: var(--bg-3) url(/bag2.webp) center top fixed;
     background-size: 100% auto;
     position: relative;
     max-width: 1280px;
@@ -1170,7 +1170,7 @@ display: flex;
 /*.full__backg{
 	height: 313px;
     padding: 0 var(--main-indent);
-    background: var(--bg-3) url(/bag1.webp) center top fixed;
+    background: var(--bg-3) url(/bag2.webp) center top fixed;
     background-size: 100% auto;
     position: relative;
 }*/
